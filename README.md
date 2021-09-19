@@ -1,10 +1,7 @@
-[![License: MIT](https://img.shields.io/github/license/marcelovicentegc/django-react-typescript)](LICENSE)
-![Build and Test app](https://github.com/marcelovicentegc/django-react-typescript/workflows/Build%20and%20Test%20app/badge.svg)
+[![License: MIT](https://img.shields.io/github/license/ertolv/drt-web-blog)](LICENSE)
+![Build and Test app](https://github.com/ertolv/drt-web-blog/workflows/Build%20and%20Test%20app/badge.svg)
 
-<p align="center">
-  <img alt="django-react-typescript logo" src="assets/Logo.png" />
-  <p align="center">Your favorite React-Django boilerplate.</p>
-</p>
+This repository is based on [this](https://github.com/marcelovicentegc/django-react-typescript) original project.
 
 ---
 
@@ -68,7 +65,7 @@ This is a fully-featured Django-React boilerplate built for great development ex
 
 ## Development directions
 
-1. Clone this repo: `git clone https://github.com/marcelovicentegc/django-react-typescript.git`
+1. Clone this repo: `git clone https://github.com/ertolv/drt-web-blog.git`
 2. Create a virtual environment: `python -m venv venv`
 3. Activate it ☝️: `source venv/bin/activate` or `venv\Scripts\activate` if you're on a Windows
 4. Install dependencies: `npm i && pip install -r requirements.txt && cd frontend && npm i`
@@ -145,3 +142,10 @@ For this kind of deploy to work, you will need a running Postgres database, Ngin
 ## Basic architecture
 
 ![Architecture](./assets/Architecture.png)
+
+
+
+### Logo
+Credits:
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
