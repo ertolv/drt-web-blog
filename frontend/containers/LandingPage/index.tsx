@@ -48,13 +48,13 @@ const LandingPage: React.FC = () => {
             alignItems: "center",
           }}
         >
-          <Text
+          {/* <Text
             fontSize={36}
             lineHeight={30}
             style={{ textAlign: "center", paddingBottom: 38 }}
           >
-            You have successfully installed Django-React-Typescript!
-          </Text>
+            Welcome !!!
+          </Text> */}
           {!AUTH_TOKEN && (
             <>
               <Separator size={"90vw"} paddingBottom={38} paddingTop={0} />

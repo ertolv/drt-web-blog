@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcelovicentegc/django-react-typescript.git"
+    "url": "git+https://github.com/ertolv/drt-web-blog.git"
   },
   "author": "Marcelo Cardoso",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcelovicentegc/django-react-typescript/issues"
+    "url": "https://github.com/ertolv/drt-web-blog/issues"
   },
-  "homepage": "https://github.com/marcelovicentegc/django-react-typescript#readme",
+  "homepage": "https://github.com/ertolv/drt-web-blog#readme",
   "dependencies": {
     "concurrently": "^5.2.0"
   }

@@ -1,3 +1,3 @@
-export const linkedinUrl = "https://www.linkedin.com/in/marcelovicentegc/";
-export const twitterUrl = "https://mobile.twitter.com/mvicentegc";
-export const facebookUrl = "https://github.com/marcelovicentegc/";
+export const linkedinUrl = "https://github.com/ertolv/";
+export const twitterUrl = "https://github.com/ertolv/";
+export const facebookUrl = "https://github.com/ertolv/";

@@ -1,7 +1,7 @@
-export const TAGLINE = "Your favorite React-Django boilerplate";
+export const TAGLINE = "Tagline";
 export const WEBSITE_URL =
-  "https://github.com/marcelovicentegc/django-react-typescript";
-export const WEBSITE_NAME = "Django-React-Typescript";
+  "https://github.com/ertolv/drt-web-blog";
+export const WEBSITE_NAME = "DRT";
 export const BASE = {
   SEARCH: "Search",
   READ_MORE: "Read more",
@@ -11,7 +11,7 @@ export const BASE = {
   PHONE_NUMBER: "Phone number",
 };
 export const BLOG_PAGE = {
-  TITLE: "Django-React-Typescript blog",
+  TITLE: "DRT blog",
   READ_MORE: BASE.READ_MORE,
   SEARCH: BASE.SEARCH,
 };
