@@ -254,7 +254,7 @@ export const BlogSection: React.FC<IProps> = ({ data: blogCarouselData }) => {
                           style={{
                             cursor: "pointer",
                           }}
-                          hoverColor={theme.color.green2}
+                          hoverColor={theme.color.moss}
                           onClick={() =>
                             push(ROUTES.BLOG + "/" + blogPost.slug)
                           }
@@ -284,7 +284,7 @@ export const BlogSection: React.FC<IProps> = ({ data: blogCarouselData }) => {
                 style={{
                   cursor: "pointer",
                 }}
-                hoverColor={theme.color.green2}
+                hoverColor={theme.color.moss}
                 onClick={() => push(ROUTES.BLOG)}
               >
                 {BOTTOM_TAG}

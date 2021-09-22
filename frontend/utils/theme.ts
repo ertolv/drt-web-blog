@@ -5,8 +5,10 @@ export const theme = {
   color: {
     white1: "#FFFFFF",
     white2: "#F3F3F3",
-    green1: "#0C4B33", // Primary green
-    green2: "#44B78B", // Secondary green
+    thunderCloud: "#505160",
+    waterfall: "#68829e",
+    moss: "#aebd38",
+    meadow: "#598234",
     blue3: "#4F68A1", // Facebook blue
     blue4: "#66B3EF", // Twitter blue
     blue5: "#1984BC", // Linkedin blue

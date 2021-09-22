@@ -18,8 +18,8 @@ from django.urls import re_path, include
 from core.settings.base import STATIC_ROOT, MEDIA_ROOT
 from django.views.static import serve
 
-admin.site.site_header = "Django-React-Typescript Admin"
-admin.site.site_title = "Django-React-Typescript Admin"
+admin.site.site_header = "DRT Admin"
+admin.site.site_title = "DRT Admin"
 admin.site.index_title = "Modules"
 
 def trigger_error(request):

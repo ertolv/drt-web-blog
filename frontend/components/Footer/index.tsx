@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
       style={{
         position: "relative",
         padding: width > BREAKPOINT ? "26px 120px" : "26px 22px",
-        backgroundColor: theme.color.green1,
+        backgroundColor: theme.color.meadow,
         justifyContent: "space-between",
         flexDirection: width < BREAKPOINT ? "column" : "row",
         ...commonRowStyle,
@@ -41,8 +41,8 @@ export const Footer: React.FC = () => {
         style={{
           ...commonRowStyle,
           position: width > BREAKPOINT ? "absolute" : "relative",
-          paddingTop: width > BREAKPOINT ? 0 : 60,
-          paddingBottom: width > BREAKPOINT ? 0 : 55,
+          paddingTop: width > BREAKPOINT ? 0 : 20,
+          paddingBottom: width > BREAKPOINT ? 0 : 15,
           left: 0,
           right: 0,
           width: 293,
@@ -56,7 +56,7 @@ export const Footer: React.FC = () => {
           lineHeight={25}
           color={theme.color.white1}
           style={{
-            width: 78,
+            width: 82,
             paddingRight: 15,
           }}
         >

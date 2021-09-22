@@ -9,6 +9,6 @@ export const H4 = styled.span`
   transition: 0.2s;
 
   &:hover {
-    color: ${({ theme }) => theme.color.green1} !important;
+    color: ${({ theme }) => theme.color.meadow} !important;
   }
 `;

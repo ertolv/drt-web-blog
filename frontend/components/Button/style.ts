@@ -37,12 +37,12 @@ export const StyledButton = styled.button<{
         : buttonType === TButtonType.primary ||
           buttonType === TButtonType.quaternary ||
           secondaryDisabled
-        ? theme.color.green1
+        ? theme.color.meadow
         : buttonType === TButtonType.secondary
         ? theme.color.blue6
         : buttonType === TButtonType.quinary
         ? theme.color.white1
-        : theme.color.green2
+        : theme.color.moss
     };
     border: ${
       disabled
@@ -66,13 +66,13 @@ export const StyledButton = styled.button<{
         disabled
           ? theme.color.grey9
           : buttonType === TButtonType.primary
-          ? theme.color.green2
+          ? theme.color.moss
           : buttonType === TButtonType.secondary
           ? theme.color.blue6
           : buttonType === TButtonType.tertiary ||
             buttonType === TButtonType.quinary
-          ? theme.color.green1
-          : theme.color.green1
+          ? theme.color.meadow
+          : theme.color.meadow
       };
       border-color: ${
         disabled
@@ -80,7 +80,7 @@ export const StyledButton = styled.button<{
           : buttonType !== TButtonType.primary &&
             buttonType !== TButtonType.secondary &&
             buttonType !== TButtonType.quaternary
-          ? theme.color.green1
+          ? theme.color.meadow
           : "unset"
       };
     }

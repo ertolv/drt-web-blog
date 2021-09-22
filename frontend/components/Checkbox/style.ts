@@ -4,7 +4,7 @@ export const StyledCheckbox = styled.div<{ isChecked: boolean }>`
   ${({ isChecked, theme }) =>
     `border: 1.5px solid ${theme.color.grey8};
     ${
-      isChecked ? `background-color: ${theme.color.green1}; border: none;` : ";"
+      isChecked ? `background-color: ${theme.color.meadow}; border: none;` : ";"
     }
     box-sizing: border-box;
     border-radius: 4px;
@@ -19,7 +19,7 @@ export const StyledCheckbox = styled.div<{ isChecked: boolean }>`
     align-items: center;
    
     &:hover {
-      border: 1.5px solid ${theme.color.green1};
+      border: 1.5px solid ${theme.color.meadow};
     }
   `}
 `;

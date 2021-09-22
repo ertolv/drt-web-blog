@@ -12,7 +12,7 @@ export const BackButton: React.FC<IProps> = (props) => {
   return (
     <StyledButton {...props}>
       {!props.type || (props.type && props.type === "return") ? (
-        <ArrowBackIcon color={theme.color.green1} />
+        <ArrowBackIcon color={theme.color.meadow} />
       ) : (
         <CloseIcon />
       )}

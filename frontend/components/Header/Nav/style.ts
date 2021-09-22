@@ -11,11 +11,11 @@ export const HeaderWrapper = styled.div<{
   brightTheme?: boolean;
   shouldPin?: boolean;
 }>`
-  height: 125px;
+  height: 95px;
   width: 100%;
   z-index: 1999;
   transition: 0.2s;
-  ${({ theme, shouldPin }) => `background: ${theme.color.green1};
+  ${({ theme, shouldPin }) => `background: ${theme.color.meadow};
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   position: ${shouldPin ? "fixed" : "relative"};
   top: ${shouldPin ? "0" : "unset"};
@@ -24,22 +24,22 @@ export const HeaderWrapper = styled.div<{
 `;
 
 export const HeaderLayer = styled.div`
-  height: 65px;
-  top: 40px;
+  height: 35px;
+  top: 20px;
   width: 100%;
   position: absolute;
-  background: ${({ theme }) => theme.color.green2};
+  background: ${({ theme }) => theme.color.moss};
 `;
 
 export const StyledHeader = styled.header<{ brightTheme?: boolean }>`
   width: calc(100% - 240px);
-  height: 42px;
-  padding: 22px 120px;
+  height: 36px;
+  padding: 22px 76px;
   display: flex;
   flex-direction: row;
   transition: 0.2s;
   background: ${({ theme, brightTheme }) =>
-    brightTheme ? theme.color.white1 : theme.color.green2};
+    brightTheme ? theme.color.white1 : theme.color.moss};
 `;
 
 export const LeftSide = styled(SideBase)`

@@ -18,7 +18,7 @@ export const Loading: React.FC<IProps> = ({
 }) => {
   const circleStyle = [
     ".sk-fading-circle .sk-circle:before {",
-    `background-color: ${secondary ? theme.color.green2 : theme.color.green1};`,
+    `background-color: ${secondary ? theme.color.moss : theme.color.meadow};`,
     "}",
   ].join("\n");
 

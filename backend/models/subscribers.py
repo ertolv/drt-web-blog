@@ -4,7 +4,7 @@ from backend.utils import Strings, compress_image
 class Subscriber(models.Model):
     class ContactMethod(models.TextChoices):
         EMAIL = 'EMAIL', 'E-mail'
-        WHATSAPP = 'WHATSAPP', 'Whatsapp'
+        WHATSAPP = 'WHATSAPP', 'WhatsApp'
 
     name = models.CharField(max_length=100, verbose_name=Strings.NAME)
     contact_method = models.CharField(max_length=300, 

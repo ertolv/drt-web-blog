@@ -54,9 +54,9 @@ export const Nav: React.FC<IProps> = ({ pinned }) => {
               <LogoIcon
                 style={{
                   position: "relative",
-                  top: -75,
-                  width: 162,
-                  height: 160,
+                  top: -39,
+                  width: 122,
+                  height: 120,
                 }}
               />
             </LeftSide>
@@ -67,7 +67,7 @@ export const Nav: React.FC<IProps> = ({ pinned }) => {
                   lineHeight={25}
                   style={{
                     cursor: "pointer",
-                    margin: "0px 16px",
+                    margin: "0px 8px",
                     display: "flex",
                     alignItems: "center",
                     whiteSpace: "nowrap",
@@ -114,7 +114,7 @@ export const Nav: React.FC<IProps> = ({ pinned }) => {
       {width < TABLET && (
         <div
           style={{
-            height: 113,
+            height: 80,
             width: "100%",
           }}
         />

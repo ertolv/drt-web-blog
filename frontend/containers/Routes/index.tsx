@@ -49,7 +49,7 @@ export const Routes = () => {
                 : titlefy(
                     history.location.pathname.replace(ROUTES.BLOG + "/", "")
                   )
-            }  | Django-React-Typescript`}
+            }  | DRT`}
           />
           <Route path={ROUTES.LANDING_PAGE} exact>
             <LandingPage />

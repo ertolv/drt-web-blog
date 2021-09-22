@@ -2,8 +2,8 @@
   "name": "django-react-typescript-frontend",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/marcelovicentegc/django-react-typescript.git",
-  "author": "Marcelo Cardoso <dev@marcelo.page>",
+  "repository": "https://github.com/ertolv/drt-web-blog.git",
+  "author": "ertolv",
   "license": "MIT",
   "husky": {
     "hooks": {

@@ -21,7 +21,7 @@ export const PaginationBox: React.FC<IProps> = ({
         fontSize={14}
         lineHeight={18}
         fontWeight={"bold"}
-        color={isSelected ? theme.color.green1 : theme.color.grey7}
+        color={isSelected ? theme.color.meadow : theme.color.grey7}
       >
         {page === "next" ? (
           <ArrowNextIcon />
