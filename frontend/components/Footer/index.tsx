@@ -1,13 +1,12 @@
 import React from "react";
 import { Row } from "../../base";
-import { FacebookIcon, LinkedinIcon } from "../../icons";
+import { FacebookIcon, InstagramIcon } from "../../icons";
 import { theme } from "../../utils/theme";
-import { facebookUrl, linkedinUrl, twitterUrl } from "../../utils/links";
+import { facebookUrl, instagramUrl } from "../../utils/links";
 import { TSvgProps } from "../../utils/types";
 import { BASE } from "../../utils/strings";
 import { Text } from "../../typography";
 import { useViewport } from "../../hooks";
-import { TwitterIcon } from "../../icons/TwitterIcon";
 
 export const Footer: React.FC = () => {
   const [isHovering, setIsHovering] = React.useState<number | null>(null);
@@ -69,18 +68,11 @@ export const Footer: React.FC = () => {
           color={isHovering === 1 ? theme.color.blue6 : theme.color.white1}
           {...iconProps}
         />
-        <LinkedinIcon
-          onClick={() => window.open(linkedinUrl, "_blank")}
-          onMouseEnter={() => setIsHovering(3)}
+        <InstagramIcon
+          onClick={() => window.open(instagramUrl, "_blank")}
+          onMouseEnter={() => setIsHovering(2)}
           onMouseLeave={() => setIsHovering(null)}
-          color={isHovering === 2 ? theme.color.blue6 : theme.color.white1}
-          {...iconProps}
-        />
-        <TwitterIcon
-          onClick={() => window.open(twitterUrl, "_blank")}
-          onMouseEnter={() => setIsHovering(3)}
-          onMouseLeave={() => setIsHovering(null)}
-          color={isHovering === 3 ? theme.color.blue6 : theme.color.white1}
+          color={isHovering === 2 ? theme.color.red1 : theme.color.white1}
           {...iconProps}
         />
       </Row>

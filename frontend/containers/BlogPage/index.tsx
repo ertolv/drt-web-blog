@@ -76,7 +76,7 @@ const BlogPage: React.FC<IProps> = ({ paginatedPublications, blogPost }) => {
     <>
       <Row
         style={{
-          maxWidth: 980,
+          maxWidth: 690,
           alignItems: "center",
           justifyContent: "center",
           flexWrap: "wrap",
@@ -86,14 +86,14 @@ const BlogPage: React.FC<IProps> = ({ paginatedPublications, blogPost }) => {
       >
         <Box
           style={{
-            maxWidth: 934,
+            maxWidth: 690,
             paddingRight: width > SEARCH_BOX_BREAKPOINT ? 0 : 22,
             paddingLeft: width > SEARCH_BOX_BREAKPOINT ? 0 : 22,
             width:
               width > SEARCH_BOX_BREAKPOINT ? "100%" : "calc(100vw - 44px)",
             justifyContent: "space-between",
             alignItems: "center",
-            flexDirection: width > 562 ? "row" : "column",
+            flexDirection: width > 400 ? "row" : "column",
           }}
         >
           <Text
@@ -155,12 +155,12 @@ const BlogPage: React.FC<IProps> = ({ paginatedPublications, blogPost }) => {
                               : width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                               ? "80vw"
                               : width < FIRST_PUBLICATION_BREAKPOINT
-                              ? 750
-                              : 870,
+                              ? 320
+                              : 440,
                           height:
                             width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                               ? "auto"
-                              : 350,
+                              : 190,
                           padding:
                             width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                               ? 28
@@ -172,11 +172,11 @@ const BlogPage: React.FC<IProps> = ({ paginatedPublications, blogPost }) => {
                             width:
                               width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                                 ? "auto"
-                                : 429,
+                                : 220,
                             height:
                               width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                                 ? "auto"
-                                : 414,
+                                : 220,
                             flexDirection:
                               width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                                 ? "column"
@@ -197,20 +197,20 @@ const BlogPage: React.FC<IProps> = ({ paginatedPublications, blogPost }) => {
                                   : "100%",
                               minHeight:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
-                                  ? 350
-                                  : 414,
+                                  ? 200
+                                  : 220,
                               maxHeight:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
-                                  ? 350
-                                  : 414,
+                                  ? 200
+                                  : 220,
                               top:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
-                                  ? -28
-                                  : -32,
+                                  ? -13
+                                  : -17,
                               left:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
-                                  ? -28
-                                  : -32,
+                                  ? -13
+                                  : -17,
                               right:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                                   ? -28
@@ -218,7 +218,7 @@ const BlogPage: React.FC<IProps> = ({ paginatedPublications, blogPost }) => {
                               paddingBottom:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                                   ? 0
-                                  : 32,
+                                  : 0,
                               paddingRight:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                                   ? 0
@@ -245,12 +245,12 @@ const BlogPage: React.FC<IProps> = ({ paginatedPublications, blogPost }) => {
                                   : "calc(100% + 32px)",
                               minHeight:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
-                                  ? 285
-                                  : 414,
+                                  ? 150
+                                  : 190,
                               marginLeft:
                                 width < FIRST_PUBLICATION_SECONDARY_BREAKPOINT
                                   ? 0
-                                  : -26,
+                                  : -10,
                               position: "relative",
                             }}
                           >
@@ -355,7 +355,7 @@ const BlogPage: React.FC<IProps> = ({ paginatedPublications, blogPost }) => {
                           right:
                             width > COMMON_PUBLICATION_BREAKPOINT ? 0 : -16,
                           paddingBottom:
-                            width > COMMON_PUBLICATION_BREAKPOINT ? 32 : 20,
+                            width > COMMON_PUBLICATION_BREAKPOINT ? 32 : 0,
                           paddingRight:
                             width > COMMON_PUBLICATION_BREAKPOINT ? 32 : 0,
                           borderTopLeftRadius: 10,

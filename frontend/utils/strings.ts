@@ -6,7 +6,7 @@ export const BASE = {
   SEARCH: "Search",
   READ_MORE: "Read more",
   LEARN_MORE: "Lear more",
-  FOLLOW_ME: "Follow me",
+  FOLLOW_ME: "Follow us",
   SHARE: "Share",
   PHONE_NUMBER: "Phone number",
 };

@@ -61,12 +61,12 @@ export function useShare() {
     );
   }
 
-  function onLinkedin(
+  function onInstagram(
     url: string,
     { title, summary, source }: LinkedinOptions
   ) {
     return (
-      "https://linkedin.com/shareArticle" +
+      "https://instagram.com/share" +
       objectToGetParams({ url, mini: "true", title, summary, source })
     );
   }
@@ -116,5 +116,5 @@ export function useShare() {
     );
   }
 
-  return { onFacebook, onLinkedin, onTwitter, onWhatsapp, viaEmail };
+  return { onFacebook, onInstagram, onTwitter, onWhatsapp, viaEmail };
 }
